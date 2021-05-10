@@ -16,3 +16,5 @@ public class Main {
             
     }
 }
+// 文字列のイコール
+// line.equals("no")
