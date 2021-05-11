@@ -1,4 +1,4 @@
-import java.util.*;
+
 // Javaではmax,minメソッドなし
 
 public class Main {
