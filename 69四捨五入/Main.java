@@ -3,8 +3,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         Scanner sc = new Scanner(System.in);
         double sum = 0;
         for (int i = 0;i < 7;i++) {
