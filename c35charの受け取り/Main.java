@@ -7,6 +7,7 @@ public class Main {
         int num = sc.nextInt();
         int count = 0;
         for (int i = 0;i < num;i++) {
+          // char型で受け取る方法
             char dis = sc.next().charAt(0);
             int e  = sc.nextInt();
             int m  = sc.nextInt();
