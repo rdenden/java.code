@@ -42,7 +42,7 @@ public class Main {
             modeNum = checkNum;
             maxCount = count;
         }
-        
+        // 最頻値複数の場合小さい方が出力される
         System.out.println(modeNum);
     }
 }
