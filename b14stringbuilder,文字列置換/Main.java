@@ -20,6 +20,8 @@ public class Main {
                 
                 for(int k = 0;k < y;k++) {
                   // インデックスkが＃の時、StringBuilderのインデックスk番目を＃に置き換える
+                  // この操作はStringではできない（不変だから）
+                  // StringBuilderは可変なので可能
                     if (line.charAt(k) == '#') {
                         sb.setCharAt(k, '#');
                     }
