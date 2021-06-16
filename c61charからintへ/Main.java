@@ -11,7 +11,7 @@ public class Main {
         String result = "";
         boolean zero = true;
         for(int i = 0;i < 3;i++) {
-          // charをintに変換　'0'を引く
+          // charをintに変換 '0'を引く
             int n1 = str1.charAt(i) - '0';
             int n2 = str2.charAt(i) - '0';
             if (n1 == 0 && n2 == 0 && zero == true) {
